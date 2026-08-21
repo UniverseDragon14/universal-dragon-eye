@@ -17,9 +17,30 @@ Possible future areas:
 - Raspberry Pi camera tests
 - AI-assisted image analysis
 
+## Architecture Direction
+
+```text
+Camera / Sensor Input
+        ↓
+Vision Processing Layer
+        ↓
+NOVA / EVE Intelligence Layer
+        ↓
+Approved Actions and Robotics Systems
+```
+
+## Hardware Targets
+
+Possible development targets:
+
+- Raspberry Pi camera systems
+- ESP32 camera modules
+- robotics perception experiments
+- local AI vision testing
+
 ## Current Scope
 
-Small foundation only.
+Small public foundation only.
 
 No private camera feeds, live streams, private locations, or sensitive monitoring data should be committed here.
 
@@ -50,3 +71,5 @@ doctor -> backup -> patch -> test -> approval -> deploy -> rollback ready
 ## Status
 
 Vision foundation completed.
+
+Documentation updated: architecture direction and development scope added.
